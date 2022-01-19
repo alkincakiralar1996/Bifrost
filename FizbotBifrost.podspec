@@ -23,10 +23,8 @@ s.license      = { :type => 'Apache License, Version 2.0', :text => <<-LICENSE
 s.source = { :git => 'https://github.com/alkincakiralar1996/Bifrost.git', :tag => s.version }
 s.homepage = 'https://github.com/alkincakiralar1996/Bifrost.git'
 
-s.source_files  = "FizbotBifrost/**/*"
-s.swift_version = "4.2"
-s.ios.deployment_target  = '12.0'
-s.public_header_files = 'FizbotBifrost/FizbotBifrost.framework/Headers/FizbotBifrost.h'
+s.vendored_frameworks = 'FizbotBifrost.xcframework/ios-arm64/shared.framework'
+s.swift_version = "5.0"
 
 end
 
