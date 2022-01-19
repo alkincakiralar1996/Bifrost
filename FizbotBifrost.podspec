@@ -26,6 +26,7 @@ s.homepage = 'https://github.com/alkincakiralar1996/Bifrost.git'
 s.source_files  = "FizbotBifrost/**/*"
 s.swift_version = "4.2"
 s.ios.deployment_target  = '12.0'
+s.public_header_files = 'FizbotBifrost/FizbotBifrost.framework/Headers/FizbotBifrost.h'
 
 end
 
