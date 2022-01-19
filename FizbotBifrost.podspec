@@ -24,6 +24,7 @@ s.source = { :git => 'https://github.com/alkincakiralar1996/Bifrost.git', :tag =
 s.homepage = 'https://github.com/alkincakiralar1996/Bifrost.git'
 
 s.vendored_frameworks = 'FizbotBifrost.framework'
+s.platform = :ios, "9.0"
 
 end
 
